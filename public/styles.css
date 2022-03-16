@@ -1,0 +1,42 @@
+html {
+    margin: 5rem;
+}
+
+body {
+    background-color: seashell;
+    /* text-align: center; */
+    max-width: 720px;
+    /* height: 10rem; */
+    padding: 2rem;
+    margin: 0 auto;
+    border: 2px groove grey;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: large;
+}
+
+.current-user, .valid-words-list, .guessed-words, .game-points {
+    border-bottom: 2px dotted grey;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.valid-words-list {
+    max-height: 200px;
+    overflow: scroll;
+}
+
+.new-guess {
+    margin-bottom: 1rem;
+}
+
+.start-new-game, .logout {
+    margin-bottom: 0.5rem;
+}
+
+.login-error, .game-status {
+    color: orange;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px dotted grey;
+}
